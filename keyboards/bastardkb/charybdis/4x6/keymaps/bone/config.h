@@ -16,9 +16,11 @@
  */
 #pragma once
 
+#define TAPPING_TOGGLE 2
+
 #ifdef VIA_ENABLE
 /* VIA configuration. */
-#    define DYNAMIC_KEYMAP_LAYER_COUNT 4
+#    define DYNAMIC_KEYMAP_LAYER_COUNT 7
 #endif // VIA_ENABLE
 
 #ifndef __arm__
